@@ -145,6 +145,7 @@ class Dict_model extends CI_Model {
     }
 
     /**
+     * @todo - тут понятно что метод требует рефакторинга
      * @param bool $ordering
      * @param array $conditions
      * @param bool $limit
