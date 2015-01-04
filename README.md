@@ -6,27 +6,20 @@
 
 ####Добавление записи в базу данных:####
 
-$data = array(
-    'name' => 'Some name'
-);
-<br />
-$this->some_model->create($data);
-
+    $data = array(
+        'name' => 'Some name'
+    );
+    $this->some_model->create($data);
 
 ####Удаление записи из базы данных:####
-<br />
-$this->some_model->delete(2);
+    $this->some_model->delete(2);
 
 
 ####Обновление данных:####
-$data = array(
-    'name' => 'Other name',
-);
-<br />
-$this->some_model->update(2, $data);
-
+    $data = array(
+        'name' => 'Other name',
+    );
+    $this->some_model->update(2, $data);
 
 ####Получение списка записей:####
-$this->some_model->getList();
-
-
+    $this->some_model->getList();
